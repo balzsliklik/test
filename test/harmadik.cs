@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace test
 {
-	Dictionary<adat, int> stat;
+	
 	internal class harmadik
 	{
-		stat = new Dictionary<adat, int>();
+		Dictionary<adat, int> stat;
+		public harmadik() {
+			stat = new Dictionary<adat, int>();
+		}
 
 		
 	}
